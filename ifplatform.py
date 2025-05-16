@@ -27,6 +27,7 @@ class IfPlatform(dotbot.Plugin):
         'anylinux',     # All linux
         'anybsd',       # All BSD
         'macos',        # MacOS
+        'alpine',       # Alpine Linux
         'ubuntu',       # Ubuntu
         'debian',       # Debian
         'rhel',         # RedHat Enterprise Linux
@@ -57,6 +58,7 @@ class IfPlatform(dotbot.Plugin):
         'freebsd',      # FreeBSD
         'midnightbsd',  # MidnightBSD
         'rocky',        # Rocky Linux
+        'void',         # Void Linux
     ]
 
     def __init__(self, context):
